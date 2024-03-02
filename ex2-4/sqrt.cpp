@@ -8,7 +8,7 @@ int main()
     using namespace std;
 
     double area;
-    cout << "Enter the floot area. in square feet, of your home: ";
+    cout << "Enter the floot area, in square feet, of your home: ";
     cin >> area;
     double side;
     side = sqrt(area);

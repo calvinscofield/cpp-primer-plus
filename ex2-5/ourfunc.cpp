@@ -18,5 +18,4 @@ void simon(int n) // define the simon() function
 {
     using namespace std;
     cout << "Simon says touch your toes " << n << " times." << endl;
-    // void function don't need return statements;
-}
+} // void function don't need return statements;
