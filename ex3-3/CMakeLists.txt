@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(ex3-3
-    hexoct.cpp)
+    hexoct1.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS ex3-3

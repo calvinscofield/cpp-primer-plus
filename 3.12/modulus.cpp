@@ -11,6 +11,6 @@ int main()
     int stone = lbs / Lbs_per_stn; // whole stone
     int pounds = lbs % Lbs_per_stn; // remainder in pounds
     cout << lbs << " pounds are " << stone
-         << " stone. " << pounds << " pound(s).\n";
+         << " stone, " << pounds << " pound(s).\n";
     return 0;
 }

@@ -10,7 +10,7 @@ int main()
 
     cout << "tub = " << tub;
     cout << ", a million tubs = " << million * tub;
-    cout << " \nand ten million tubs = ";
+    cout << ",\nand ten million tubs = ";
     cout << 10 * million * tub << endl;
 
     cout << "mint = " << mint << " and a million mints = ";
