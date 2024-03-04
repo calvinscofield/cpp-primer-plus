@@ -1,7 +1,7 @@
 // choices.cpp -- array variations
 #include <iostream>
 #include <vector> // STL C++98
-#include <array> //C++11
+#include <array> // C++11
 int main()
 {
     using namespace std;
@@ -14,7 +14,7 @@ int main()
     a2[1] = 1.0 / 5.0;
     a2[2] = 1.0 / 7.0;
     a2[3] = 1.0 / 9.0;
-    // C++11 -- create and initialize array Object
+    // C++11 -- create and initialize array object
     array<double, 4> a3 = {3.14, 2.72, 1.62, 1.41};
     array<double, 4> a4;
     a4 = a3; // valid for array objects of same size

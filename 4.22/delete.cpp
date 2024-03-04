@@ -11,7 +11,7 @@ int main()
     cout << name << " at " << (int *)name << "\n";
     delete []name; // memory freed
 
-    name = getname(); // assign address of string to name
+    name = getname(); // reuse freed memory
     cout << name << " at " << (int *)name << "\n";
     delete []name; // memory freed again
     return 0;

@@ -1,4 +1,4 @@
-// structur.cpp -- a simple structur
+// structur.cpp -- a simple structure
 #include <iostream>
 struct inflatable // structure declaration
 {
