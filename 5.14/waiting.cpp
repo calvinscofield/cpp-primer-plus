@@ -1,4 +1,4 @@
-// waiting.cpp -- using clock() in a time delay loop
+// waiting.cpp -- using clock() in a time-delay loop
 #include <iostream>
 #include <ctime> // describes clock() function, clock_t type
 int main()
@@ -12,6 +12,6 @@ int main()
     clock_t start = clock();
     while (clock() - start < delay) // wait until time elapses
         ; // note the semicolon
-    cout << "done.\a\n";
+    cout << "done \a\n";
     return 0;
 }

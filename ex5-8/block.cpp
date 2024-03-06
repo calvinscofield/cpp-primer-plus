@@ -13,7 +13,7 @@ int main()
         cout << "Value " << i << ": ";
         cin >> number;
         sum += number;
-    }
+    } // block ends here
     cout << "Five exquisite choices indeed! ";
     cout << "They sum to " << sum << endl;
     cout << "and average to " << sum / 5 << ".\n";

@@ -1,4 +1,4 @@
-// dowhile.cpp -- exit condition loop
+// dowhile.cpp -- exit-condition loop
 #include <iostream>
 int main()
 {
