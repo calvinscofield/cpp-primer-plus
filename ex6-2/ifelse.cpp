@@ -11,7 +11,7 @@ int main()
         if (ch == '\n')
             std::cout << ch; // done if newline
         else
-            std::cout << ++ch; //  done otherwise
+            std::cout << ++ch; // done otherwise
         std::cin.get(ch);
     }
     // try ch + 1 instead of ++ch for interseting effect

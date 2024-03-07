@@ -33,8 +33,8 @@ int main()
 void showmenu()
 {
     cout << "Please enter 1, 2, 3, 4, or 5:\n"
-            "1) alarm 2) report\n"
-            "3) alibi 4) comfort\n"
+            "1) alarm           2) report\n"
+            "3) alibi           4) comfort\n"
             "5) quit\n";
 }
 void report()

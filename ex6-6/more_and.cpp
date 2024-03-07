@@ -6,7 +6,6 @@ const char *qualify[4] = { // an array of pointers to strings
     "masters canoe jousting.\n",
     "pie-throwing festival.\n"
 };
-
 int main()
 {
     using namespace std;
