@@ -5,7 +5,7 @@ int sum_arr(int arr[], int n); // prototype
 int main()
 {
     using namespace std;
-    int cookies[ArSize] = {1, 2, 4, 8, 16, 32, 64, 128};
+    int cookies[ArSize] = {1,2,4,8,16,32,64,128};
     // some systems require preceding int with static to
     // enable array initialization
 

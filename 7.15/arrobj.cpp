@@ -4,7 +4,8 @@
 #include <string>
 // constant data
 const int Seasons = 4;
-const std::array<std::string, Seasons> Snames = {"Spring", "Summer", "Fall", "Winter"};
+const std::array<std::string, Seasons> Snames =
+    {"Spring", "Summer", "Fall", "Winter"};
 
 // function to modify array object
 void fill(std::array<double, Seasons> *pa);

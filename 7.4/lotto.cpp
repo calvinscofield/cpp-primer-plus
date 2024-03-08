@@ -21,7 +21,7 @@ int main()
 
 // the following function calculates the probability of picking picks
 // numbers correctly from numbers choices
-long double probability(unsigned int numbers, unsigned int picks)
+long double probability(unsigned int numbers, unsigned picks)
 {
     long double result = 1.0; // here come some local variables
     long double n;

@@ -26,7 +26,7 @@ int sum_arr(int arr[], int n)
 {
     int total = 0;
     std::cout << arr << " = arr, ";
-    // some systems require a type cast: unsigned(arr)
+    // some systems require a type cast: unsigned (arr)
 
     std::cout << sizeof arr << " = sizeof arr\n";
     for (int i = 0; i < n; i++)

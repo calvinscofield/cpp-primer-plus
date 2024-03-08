@@ -35,7 +35,7 @@ int main()
     return 0;
 }
 
-// show polar coordinates, converting angle to degree
+// show polar coordinates, converting angle to degrees
 void show_polar(const polar *pda)
 {
     using namespace std;

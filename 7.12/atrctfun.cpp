@@ -35,7 +35,7 @@ int main()
     return 0;
 }
 
-// conver rectangular to polar coordinates
+// convert rectangular to polar coordinates
 polar rect_to_polar(rect xypos)
 {
     using namespace std;
