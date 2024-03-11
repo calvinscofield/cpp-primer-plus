@@ -1,4 +1,4 @@
-// strt_ref.cpp -- using structure references
+// strc_ref.cpp -- using structure references
 #include <iostream>
 #include <string>
 struct free_throws
@@ -40,9 +40,9 @@ int main()
     std::cout << "Displaying dup after assignment:\n";
     display(dup);
     set_pc(four);
-    // ill advised assignment
+    // ill-advised assignment
     accumulate(dup, five) = four;
-    std::cout << "Displaying dup after ill advised assignment:\n";
+    std::cout << "Displaying dup after ill-advised assignment:\n";
     display(dup);
     return 0;
 }

@@ -10,14 +10,14 @@ int main()
     int i = 10;
     int j = 20;
     cout << "i, j = " << i << ", " << j << ".\n";
-    cout << "Using compiler generated int swapper:\n";
+    cout << "Using compiler-generated int swapper:\n";
     Swap(i, j); // generates void Swap(int &, int &)
     cout << "Now i, j = " << i << ", " << j << ".\n";
 
     double x = 24.5;
     double y = 81.7;
     cout << "x, y = " << x << ", " << y << ".\n";
-    cout << "Using compiler generated double swapper:\n";
+    cout << "Using compiler-generated double swapper:\n";
     Swap(x, y); // generates void Swap(double &, double &)
     cout << "Now x, y = " << x << ", " << y << ".\n";
     // cin.get();

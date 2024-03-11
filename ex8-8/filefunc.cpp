@@ -25,7 +25,7 @@ int main()
          << " eyepieces:\n";
     for (int i = 0; i < LIMIT; i++)
     {
-        cout << "Eyepieces #" << i + 1 << ": ";
+        cout << "Eyepiece #" << i + 1 << ": ";
         cin >> eps[i];
     }
     file_it(fout, objective, eps, LIMIT);

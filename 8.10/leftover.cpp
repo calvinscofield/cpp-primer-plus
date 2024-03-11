@@ -21,7 +21,7 @@ int main()
     return 0;
 }
 
-// This function return the first ct digits of the number num
+// This function return the first ct digits of the number num.
 unsigned long left(unsigned long num, unsigned int ct)
 {
     unsigned digits = 1;
@@ -43,7 +43,7 @@ unsigned long left(unsigned long num, unsigned int ct)
 }
 
 // This function returns a pointer to a new string
-// consisting of the first n characters in the string.
+// consisting of the first n characters in the str string.
 char *left(const char *str, int n)
 {
     if (n < 0)

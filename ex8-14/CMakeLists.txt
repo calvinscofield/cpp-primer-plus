@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(ex8-14
-    temptempover.cpp)
+    tempover.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS ex8-14

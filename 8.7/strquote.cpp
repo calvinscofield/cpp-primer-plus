@@ -32,6 +32,7 @@ int main()
 
     return 0;
 }
+
 string version1(const string &s1, const string &s2)
 {
     string temp;
