@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(ex9-13
-    namesp.cpp namesp.h namessp.cpp)
+    namesp.cpp namesp.h usenmsp.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS ex9-13
