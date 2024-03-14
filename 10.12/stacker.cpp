@@ -42,7 +42,7 @@ int main()
             break;
         }
         cout << "Please enter A to add a puchase order,\n"
-             << "p to process a PO, or Q to quit.\n";
+             << "P to process a PO, or Q to quit.\n";
     }
     cout << "Bye\n";
     return 0;

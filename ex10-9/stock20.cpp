@@ -92,7 +92,6 @@ void Stock::show() const
     cout << "  Total Worth: $" << total_val << '\n';
 
     // restore original format
-    // restore original format
     cout.setf(orig, ios_base::floatfield);
     cout.precision(prec);
 }

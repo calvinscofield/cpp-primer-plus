@@ -1,7 +1,7 @@
 // stock00.h -- Stock class interface
 // version 00
-#ifndef STOCK00_H
-#define STOCK00_H
+#ifndef STOCK00_H_
+#define STOCK00_H_
 
 #include <string>
 
@@ -21,4 +21,4 @@ public:
     void show();
 }; // note semicolon at the end
 
-#endif // STOCK00_H
+#endif

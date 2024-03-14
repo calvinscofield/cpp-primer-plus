@@ -7,7 +7,7 @@ Stock::Stock() // default constructor
 {
     company = "no name";
     shares = 0;
-    shar_val = 0.0;
+    share_val = 0.0;
     total_val = 0.0;
 }
 
@@ -91,7 +91,6 @@ void Stock::show() const
     cout.precision(2);
     cout << "  Total Worth: $" << total_val << '\n';
 
-    // restore original format
     // restore original format
     cout.setf(orig, ios_base::floatfield);
     cout.precision(prec);

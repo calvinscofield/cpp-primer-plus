@@ -86,11 +86,11 @@ void Stock::show()
     std::streamsize prec = cout.precision(3);
 
     cout << "Company: " << company
-         << " Shares: " << shares << '\n';
-    cout << " Share Price: $" << share_val;
+         << "  Shares: " << shares << '\n';
+    cout << "  Share Price: $" << share_val;
     // set format to #.##
     cout.precision(2);
-    cout << " Total Worth: $" << total_val << '\n';
+    cout << "  Total Worth: $" << total_val << '\n';
 
     // restore original format
     cout.setf(orig, std::ios_base::floatfield);

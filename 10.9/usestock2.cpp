@@ -23,7 +23,7 @@ int main()
     for (st = 1; st < STKS; st++)
         top = &top->topval(stocks[st]);
     // now top points to the most valuable holding
-    std::cout << "\n Most valuable holding:\n";
+    std::cout << "\nMost valuable holding:\n";
     top->show();
     return 0;
 }
