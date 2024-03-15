@@ -21,4 +21,5 @@ public:
     { return t * m; } // inline definition
     friend std::ostream &operator<<(std::ostream &os, const Time &t);
 };
+
 #endif

@@ -30,7 +30,7 @@ int main()
             steps++;
         }
         cout << "After " << steps << " steps, the subject "
-                                     "has the following location:\n";
+            "has the following location:\n";
         cout << result << endl;
         result.polar_mode();
         cout << " or\n" << result << endl;

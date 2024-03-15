@@ -25,7 +25,8 @@ Stonewt::Stonewt() // default constructor, wt = 0
 }
 
 Stonewt::~Stonewt() // destructor
-{}
+{
+}
 
 // show weight in stones
 void Stonewt::show_stn() const

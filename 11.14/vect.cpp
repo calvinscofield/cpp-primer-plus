@@ -1,6 +1,6 @@
 // vect.cpp -- methods for the Vector class
 #include <cmath>
-#include "vector.h" // includes <iostream>
+#include "vect.h" // includes <iostream>
 using std::sqrt;
 using std::sin;
 using std::cos;
@@ -101,13 +101,14 @@ void Vector::reset(double n1, double n2, Mode form)
     {
         cout << "Incorrect 3rd argument to Vector() -- ";
         cout << "vector set to 0\n";
-        x = y = mag = ang - 0.0;
+        x = y = mag = ang = 0.0;
         mode = RECT;
     }
 }
 
 Vector::~Vector() // destructor
-{}
+{
+}
 
 void Vector::polar_mode() // set to polar mode
 {

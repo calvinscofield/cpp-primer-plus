@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(ex11-15
-    randwalk.cpp vector.cpp vector.h)
+    randwalk.cpp vect.cpp vect.h)
 
 include(GNUInstallDirs)
 install(TARGETS ex11-15

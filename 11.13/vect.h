@@ -41,5 +41,4 @@ public:
     friend std::ostream &operator<<(std::ostream &os, const Vector &v);
 };
 } // end namespace VECTOR
-
 #endif

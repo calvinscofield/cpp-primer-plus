@@ -9,8 +9,8 @@ private:
     double pds_left; // fractional pounds
     double pounds; // entire weight in pounds
 public:
-    Stonewt(double lbs); // constructor for double pounds
-    Stonewt(int stn, double lbs); // constructor for stone, lbs
+    Stonewt(double lbs); // constructor from double pounds
+    Stonewt(int stn, double lbs); // constructor from stone, lbs
     Stonewt(); // default constructor
     ~Stonewt();
     void show_lbs() const; // show weight in pounds format
@@ -19,5 +19,4 @@ public:
     operator int() const;
     operator double() const;
 };
-
 #endif
