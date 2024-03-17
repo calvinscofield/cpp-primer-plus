@@ -20,6 +20,7 @@ public:
     ~String(); // destructor
     int length() const {return len;}
     // overloaded operator methods
+
     String &operator=(const String &);
     String &operator=(const char *);
     char &operator[](int i);
@@ -33,5 +34,4 @@ public:
     // static function
     static int HowMany();
 };
-
 #endif

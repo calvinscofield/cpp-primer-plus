@@ -38,13 +38,13 @@ int main()
             cout << sayings[i] << "\n";
 
         // use pointers to keep track of shortest, first strings
-        String * shortest = &sayings[0]; // initialize to first object
-        String * first = &sayings[0];
+        String *shortest = &sayings[0]; // initialize to first object
+        String *first = &sayings[0];
         for (i = 0; i < total; i++)
         {
             if (sayings[i].length() < shortest->length())
                 shortest = &sayings[i];
-            if (sayings[i] < *first) // compare value
+            if (sayings[i] < *first) // compare values
                 first = &sayings[i]; // assign address
         }
         cout << "Shortest saying:\n" << *shortest << endl;

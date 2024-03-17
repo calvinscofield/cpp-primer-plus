@@ -44,7 +44,7 @@ bool Queue::enqueue(const Item &item)
     add->item = item; // set node pointers
     add->next = NULL; // or nullptr;
     items++;
-    if (front == NULL) // is queue is empty
+    if (front == NULL) // if queue is empty
         front = add; // place item at front
     else
         rear->next = add; // else place at rear

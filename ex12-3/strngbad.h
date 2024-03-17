@@ -15,5 +15,4 @@ public:
     // friend function
     friend std::ostream &operator<<(std::ostream &os, const StringBad &st);
 };
-
 #endif

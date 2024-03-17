@@ -28,7 +28,7 @@ private:
     Node *front; // pointer to front of Queue
     Node *rear; // pointer to rear of Queue
     int items; // current number of items in Queue
-    const int qsize; // miximum number of items in Queue
+    const int qsize; // maximum number of items in Queue
     // preemptive definitions to prevent public copying
     Queue(const Queue &q) : qsize(0) {}
     Queue &operator=(const Queue &q) {return *this;}
@@ -41,5 +41,4 @@ public:
     bool enqueue(const Item &item); // add item to end
     bool dequeue(Item &item); // remove item from front
 };
-
 #endif

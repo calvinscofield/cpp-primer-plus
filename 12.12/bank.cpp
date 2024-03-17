@@ -29,7 +29,7 @@ int main()
     // simulation will run 1 cycle per minute
     long cyclelimit = MIN_PER_HR * hours; // # of cycles
 
-    cout << "Enter the average number of customers per hour";
+    cout << "Enter the average number of customers per hour: ";
     double perhour; // average # of arrival per hour
     cin >> perhour;
     double min_per_cust; // average time between arrivals
@@ -56,7 +56,7 @@ int main()
                 line.enqueue(temp); // add newcomer to line
             }
         }
-        if (wait_time == 0 && !line.isempty())
+        if (wait_time <= 0 && !line.isempty())
         {
             line.dequeue(temp); // attend next customer
             wait_time = temp.ptime(); // for wait_time minutes
@@ -73,7 +73,7 @@ int main()
     {
         cout << "customers accepted: " << customers << endl;
         cout << "  customers served: " << served << endl;
-        cout << "    turnaways: " << turnaways << endl;
+        cout << "         turnaways: " << turnaways << endl;
         cout << "average queue size: ";
         cout.precision(2);
         cout.setf(ios_base::fixed, ios_base::floatfield);
@@ -89,7 +89,7 @@ int main()
 }
 
 // x = aveerage time, in minutes, between customers
-// return value is ture if customer shows up this minute
+// return value is true if customer shows up this minute
 bool newcustomer(double x)
 {
     return (std::rand() * x / RAND_MAX < 1);
