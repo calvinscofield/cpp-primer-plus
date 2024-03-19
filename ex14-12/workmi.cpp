@@ -31,14 +31,11 @@ int main()
             break;
         switch (choice)
         {
-        case 'w':
-            lolas[ct] = new Waiter;
+        case 'w': lolas[ct] = new Waiter;
             break;
-        case 's':
-            lolas[ct] = new Singer;
+        case 's': lolas[ct] = new Singer;
             break;
-        case 't':
-            lolas[ct] = new SingingWaiter;
+        case 't': lolas[ct] = new SingingWaiter;
             break;
         }
         cin.get();

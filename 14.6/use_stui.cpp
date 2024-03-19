@@ -1,5 +1,5 @@
 // use_stui.cpp -- using a class with private inheritance
-// compile with stuenti.cpp
+// compile with studenti.cpp
 #include <iostream>
 #include "studenti.h"
 using std::cin;
@@ -19,7 +19,7 @@ int main()
     for (i = 0; i < pupils; ++i)
         set(ada[i], quizzes);
     cout << "\nStudent List:\n";
-    for (i =0; i < pupils; ++i)
+    for (i = 0; i < pupils; ++i)
         cout << ada[i].Name() << endl;
     cout << "\nResults:";
     for (i = 0; i < pupils; ++i)

@@ -1,7 +1,7 @@
 // stkoptr1.cpp -- testing stack of pointers
 #include <iostream>
 #include <cstdlib> // for rand(), srand()
-#include <ctime> // fpr time()
+#include <ctime> // for time()
 #include "stcktp1.h"
 const int Num = 10;
 int main()

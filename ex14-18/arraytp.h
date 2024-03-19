@@ -38,7 +38,7 @@ T &ArrayTP<T, n>::operator[](int i)
 template <class T, int n>
 T ArrayTP<T, n>::operator[](int i) const
 {
-    if (i < 0 || i>= n)
+    if (i < 0 || i >= n)
     {
         std::cerr << "Error in Array limits: " << i
                   << " is out of range\n";

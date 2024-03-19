@@ -52,8 +52,7 @@ void Waiter::Get()
 }
 
 // Singer methods
-char *Singer::pv[] = {"other", "alto", "contralto",
-                      "soprano", "bass", "baritone", "tenor"};
+char *Singer::pv[] = {"other", "alto", "contralto", "soprano", "bass", "baritone", "tenor"};
 
 void Singer::Set()
 {
@@ -86,10 +85,8 @@ void Singer::Get()
             cout << endl;
     }
     if (i % 4 != 0)
-        cout << endl;
-    while (cin >> voice && (voice < 0 || voice >= Vtypes))
-        cout << "Please enter a value >= 0 and < " << Vtypes << endl;
-
+        cout << '\n';
+    cin >> voice;
     while (cin.get() != '\n')
         continue;
 }

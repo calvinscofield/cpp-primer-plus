@@ -1,7 +1,7 @@
 // stkoptr1.cpp -- testing stack of pointers
 #include <iostream>
 #include <cstdlib> // for rand(), srand()
-#include <ctime> // fpr time()
+#include <ctime> // for time()
 #include "stcktp1.h"
 const int Num = 10;
 int main()
@@ -35,7 +35,7 @@ int main()
         else if (std::rand() % 2 && nextin < Num) // 50-50 chance
             st.push(in[nextin++]);
         else
-            st.pop[out[processed++]];
+            st.pop(out[processed++]);
     }
     for (int i = 0; i < Num; i++)
         std::cout << out[i] << std::endl;

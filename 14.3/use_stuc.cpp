@@ -1,5 +1,5 @@
 // use_stuc.cpp -- using a composite class
-// compile with stuentc.cpp
+// compile with studentc.cpp
 #include <iostream>
 #include "studentc.h"
 using std::cin;
@@ -18,7 +18,7 @@ int main()
     for (i = 0; i < pupils; ++i)
         set(ada[i], quizzes);
     cout << "\nStudent List:\n";
-    for (i =0; i < pupils; ++i)
+    for (i = 0; i < pupils; ++i)
         cout << ada[i].Name() << endl;
     cout << "\nResults:";
     for (i = 0; i < pupils; ++i)

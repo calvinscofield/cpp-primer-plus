@@ -43,8 +43,7 @@ void Waiter::Show() const
 }
 
 // Singer methods
-char *Singer::pv[] = {"other", "alto", "contralto",
-                      "soprano", "bass", "baritone", "tenor"};
+char *Singer::pv[] = {"other", "alto", "contralto", "soprano", "bass", "baritone", "tenor"};
 
 void Singer::Set()
 {
