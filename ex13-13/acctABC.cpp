@@ -98,7 +98,6 @@ void BrassPlus::ViewAcct() const
     Restore(f);
 }
 
-// redefine how Withdraw() works
 void BrassPlus::Withdraw(double amt)
 {
     Formatting f = SetFormat();

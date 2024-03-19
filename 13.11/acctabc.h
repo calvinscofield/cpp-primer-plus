@@ -60,5 +60,4 @@ public:
     void ResetRate(double r) {rate = r;}
     void ResetOwes() {owesBank = 0;}
 };
-
 #endif

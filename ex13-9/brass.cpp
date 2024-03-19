@@ -36,6 +36,11 @@ void Brass::Withdraw(double amt)
     precis prec = cout.precision(2);
 
     if (amt < 0)
+        cout << "Withdrawal amount must be positive; "
+             << "withdrawal canceled.\n";
+    else if (amt <= balance)
+        balance -= amt;
+    else
         cout << "Withdrawal amount of $" << amt
              << " exceeds your balance.\n"
              << "Withdrawal canceled.\n";

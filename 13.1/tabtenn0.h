@@ -17,5 +17,4 @@ public:
     bool HasTable() const {return hasTable;}
     void RestTable(bool v) {hasTable = v;}
 };
-
 #endif
