@@ -91,4 +91,5 @@ bool QueueTP<Item>::dequeue(Item &item)
         rear = 0;
     return true;
 }
+
 #endif

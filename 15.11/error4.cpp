@@ -13,7 +13,7 @@ int main()
 
     double x, y, z;
 
-    std::cout << "Enter two numbers: ";
+    cout << "Enter two numbers: ";
     while (cin >> x >> y)
     {
         try { // start of try block
@@ -38,6 +38,7 @@ int main()
             cout << "Sorry, you don't get to play any more.\n";
             break;
         } // end of catch block
+    }
     cout << "Bye!\n";
     return 0;
 }

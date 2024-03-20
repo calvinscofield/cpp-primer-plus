@@ -45,5 +45,4 @@ public:
     void set_mode(Tv &t) {t.set_mode();}
     void set_input(Tv &t) {t.set_input();}
 };
-
 #endif

@@ -29,8 +29,7 @@ private:
 public:
     Magnificent(int h = 0, char c = 'A') : Superb(h), ch(c) {}
     void Speak() const {cout << "I am a magnificent class!!!\n";}
-    void Say() const {cout << "I hold the character " << ch <<
-                       " and the integer " << Value() << "!\n";}
+    void Say() const {cout << "I hold the character " << ch << " and the integer " << Value() << "!\n";}
 };
 
 Grand *GetOne();

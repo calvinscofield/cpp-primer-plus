@@ -29,8 +29,7 @@ private:
 public:
     Magnificent(int h = 0, char c = 'A') : Superb(h), ch(c) {}
     void Speak() const {cout << "I am a magnificent class!!!\n";}
-    void Say() const {cout << "I hold the character " << ch <<
-                       " and the integer " << Value() << "!\n";}
+    void Say() const {cout << "I hold the character " << ch << " and the integer " << Value() << "!\n";}
 };
 
 Grand *GetOne();
@@ -62,8 +61,7 @@ Grand *GetOne() // generate one of three kinds of objects randomly
         p = new Superb(std::rand() % 100);
         break;
     case 2:
-        p = new Magnificent(std::rand() % 100,
-                            'A' + std::rand() % 26);
+        p = new Magnificent(std::rand() % 100, 'A' + std::rand() % 26);
         break;
     }
     return p;

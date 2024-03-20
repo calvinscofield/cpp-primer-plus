@@ -63,5 +63,4 @@ inline void Remote::chandown(Tv &t) {t.chandown();}
 inline void Remote::set_mode(Tv &t) {t.set_mode();}
 inline void Remote::set_input(Tv &t) {t.set_input();}
 inline void Remote::set_chan(Tv &t, int c) {t.channel = c;}
-
 #endif

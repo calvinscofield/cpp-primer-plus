@@ -16,7 +16,7 @@ int main()
     while (!cs.isfull())
     {
         cout << "Please enter your name. You will be "
-        "served in the order of arrival.\n"
+                "served in the order of arrival.\n"
                 "name: ";
         getline(cin, temp);
         cs.enqueue(temp);
