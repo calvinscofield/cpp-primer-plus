@@ -1,4 +1,4 @@
-// strgst1.cpp
+// strgst1.cpp -- applying the STL to a string
 #include <iostream>
 #include <string>
 #include <algorithm>
