@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(ex17-13
-    get_gun.cpp)
+    get_fun.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS ex17-13
