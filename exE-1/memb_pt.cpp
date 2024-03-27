@@ -30,7 +30,6 @@ Example::Example(int ft)
 
 Example::~Example()
 {
-
 }
 
 void Example::show_in() const
